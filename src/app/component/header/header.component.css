@@ -1,0 +1,47 @@
+.container__navBar {
+  height: 10%;
+  padding: 3%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+
+}
+.logo{
+  width: 60px;
+  height: 35px;
+  background-image: url("src/assets/images/logo.png");
+  background-size: 60px 35px;
+}
+
+.menu {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+a:hover {
+  color: #7f7f7f;
+}
+.hover:hover{
+  background-color: #FDFF00;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+}
+.selecionado{
+  background-color: #FDFF00;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+}
+.menu li {
+  margin: 0 10px;
+  list-style: none;
+}

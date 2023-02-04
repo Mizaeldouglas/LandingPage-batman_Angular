@@ -1,0 +1,52 @@
+.container{
+  color: #fff;
+}
+h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  padding-bottom: 16px;
+}
+h4{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+}
+.generos{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 36px 0px 38px;
+  cursor: pointer;
+}
+.space{
+  height: 16px;
+}
+p{
+  width: 607px;
+  height: 84px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.buttom{
+  width: 286px;
+  height: 56px;
+  left: 100px;
+  top: 616px;
+  background: #FDFF00;
+  border-radius: 8px;
+  border: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
