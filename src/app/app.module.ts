@@ -7,6 +7,7 @@ import { HomePageComponent } from './component/home-page/home-page.component';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { HomeContentComponent } from './component/home-page/home-content/home-content.component';
+import { MovieCardsComponent } from './component/movie-cards/movie-cards.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { HomeContentComponent } from './component/home-page/home-content/home-co
     HeaderComponent,
     FooterComponent,
     HomeContentComponent,
+    MovieCardsComponent,
   ],
     imports: [
         BrowserModule,

@@ -1,0 +1,74 @@
+.movie-card-container{
+  display: flex;
+}
+.container{
+  width: 402px;
+  height: 200px;
+  padding-top: 55px;
+  display: flex;
+
+}
+.movie-card-img-begins{
+  display: block;
+  height: 200px;
+  width: 140px;
+  max-width: 100%;
+  background-image: url("src/assets/images/Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.movie-card-text{
+  padding: 16px;
+}
+.movie-card-text h1{
+  color: #fff;
+}
+.movie-card-text p{
+  color: #929292;
+}
+.movie-card-text h5{
+  color: #929292;
+}
+.movie-card-text span{
+  color: #FDFF00;
+}
+.movie-card-button{
+  display: flex;
+}
+.buttom{
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  width: 100px;
+  height: 26px;
+  left: 156px;
+  top: 158px;
+  background: #FDFF00;
+  border-radius: 8px;
+  border: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.buttom-details{
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  color: #929292;
+  border: solid 1px #929292;
+  width: 100px;
+  height: 26px;
+  left: 156px;
+  top: 158px;
+  background: #000;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}

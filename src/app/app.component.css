@@ -1,7 +1,11 @@
-
+.container{
+  width: 100%;
+  height: 1000px;
+  background-color: black;
+}
 .container-img{
   width: 100%;
-  height: 800px;
+  height: 850px;
   background-image: url("src/assets/images/batman.png");
   background-size: cover;
   background-repeat: no-repeat;
